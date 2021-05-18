@@ -6,5 +6,5 @@ abstract class HorizontalAlignment
     const Left = 'left';
     const Right = 'right';
     const Center = 'center';
-    const Justify = 'justify';
+    const Justified = 'justified';
 }
