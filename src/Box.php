@@ -228,6 +228,7 @@ class Box
      */
     public function draw($text)
     {
+	$spacing = 0;
         if (!isset($this->fontFace)) {
             throw new \InvalidArgumentException('No path to font file has been specified.');
         }
